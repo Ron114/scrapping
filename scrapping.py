@@ -61,7 +61,7 @@ def generate_commits(start_date, end_date, special_days=None):
 if __name__ == "__main__":
     # Start from your GitHub account creation date
     start_date = datetime(2016, 11, 29)
-    end_date = datetime.today()
+    end_date = datetime(2017, 11, 29)
 
     # Picked a few special days (can adjust freely)
     special_dates = {
